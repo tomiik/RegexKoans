@@ -32,9 +32,9 @@ With many thanks to:
 First time setup
 ------------
 
-- Fork the project.
-- Clone the forked repository locally.
-- `cd` to the folder in terminal
+* Fork the project.
+* Clone the forked repository locally.
+* `cd` to the folder in terminal
 
 Usage
 -----
@@ -45,5 +45,5 @@ Usage
 
 Useful links
 ------------
-[jsRegex]: http://www.regular-expressions.info/javascript.html
-[rubular]: http://rubular.com/
+* [jsRegex]: http://www.regular-expressions.info/javascript.html
+* [rubular]: http://rubular.com/
