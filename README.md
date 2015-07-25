@@ -3,6 +3,8 @@ Regular Expression Koans
 
 A series of tutorials on Regular Expressions.
 
+This is a modified version of [the original RegexKoans](https://github.com/frenchroasted/RegexKoans)
+
 Learn how to write, read, and use Regular Expressions by completing or correcting
 code to make failing Unit Tests pass. Each Koan includes a series of Unit Tests
 which illustrate Regular Expression principles and techniques. I have made an effort
@@ -23,13 +25,16 @@ Bookmarks list of every programmer.
 
 With many thanks to:
 
+*  [Aaron Brown](https://github.com/frenchroasted/) for [the original RegexKoans](https://github.com/frenchroasted/RegexKoans)
 *  [EdgeCase](http://edgecase.com/) for the original, inspired, and inspirational [Ruby Koans](http://rubykoans.com/)
 *  [Pivotal Labs](http://pivotallabs.com/) for [Jasmine](http://pivotal.github.com/jasmine/), the splendid Javascript Unit Testing framework
 
-Installation
+First time setup
 ------------
 
-Checkout or download the zipped version of this project and extract it to a folder.
+- Fork the project.
+- Clone the forked repository locally.
+- `cd` to the folder in terminal
 
 Usage
 -----
@@ -38,5 +43,7 @@ Usage
 * Edit the .js file, save, and reload the web page.
 * Repeat until all the tests are passing.
 
+Useful links
+------------
 [jsRegex]: http://www.regular-expressions.info/javascript.html
 [rubular]: http://rubular.com/
