@@ -1,23 +1,23 @@
 describe("Basics", function() {
 
 	it('replace /^___$/ with /^a$/ to make RegEx match', function() {
-		expect('a').toMatch(/^___$/);
+		expect('a').toMatch(/^a$/);
 	});
-	
+
 	it('a RegEx that is the same as the string will match', function() {
-		expect('abcd').toMatch(/^___$/);
+		expect('abcd').toMatch(/^abcd$/);
 	});
-	
+
 	it('RegEx is case sensitive', function() {
-		expect('AbCd').toMatch(/^___$/);
+		expect('AbCd').toMatch(/^AbCd$/);
 	});
-	
+
 	it('whitespace matters', function() {
-		expect('ab cd').toMatch(/^___$/);
+		expect('ab cd').toMatch(/^ab cd$/);
 	});
-	
+
 	it('testing for does-not-match is often useful, too', function() {
-		expect('abcd').not.toMatch(/^abcd$/);
+		expect('abcd').not.toMatch(/^aaaa$/);
 	});
 
 });
